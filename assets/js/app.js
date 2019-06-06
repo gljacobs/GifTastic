@@ -52,7 +52,7 @@ $("button").on("click", function () {
     });
 });
 
-$(".gif").on("click", function () {
+$("img").on("click", function () {
 
     var state = $(this).attr("data-state");
     
