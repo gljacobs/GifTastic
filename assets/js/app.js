@@ -38,7 +38,12 @@ $("button").on("click", function () {
             var p = $("<p>");
             p.text(results[i].rating);
             var img = $("<img>");
-            img.attr("src", results[i].images.fixed_height.url);
+            
+            img.attr("src", results[i].images.fixed_height_still.url);
+            img.attr("data-still", results[i].images.fixed_height_still.url);
+            img.attr("data-animate", results[i].images.fixed_height.url);
+            img.attr("data-state", "still");
+
             animalDiv.append(p);
             animalDiv.append(img);
             $("#gifs").prepend(animalDiv);
