@@ -13,6 +13,7 @@ var renderButton = (arr) => {
 $("#submit").on("click", (event) => {
     event.preventDefault();
     topics.push($("#search").val());
+    $("#search").val("");
     renderButton(topics);
 })
 
