@@ -23,7 +23,7 @@ renderButton(topics);
 $(document).on("click", ".animal", function () {
     var animal = $(this).attr("data-name");
     var queryURL = "https://api.giphy.com/v1/gifs/search?q=" +
-        animal + "&api_key=JMG89CzdvjAg1S68HR88ZX9xfKv2PHsK";
+        animal + "&api_key=JMG89CzdvjAg1S68HR88ZX9xfKv2PHsK&limit=5";
 
     $.ajax({
         url: queryURL,
