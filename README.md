@@ -4,7 +4,7 @@
 
 [Click here to check out the site!](https://gljacobs.github.io/GifTastic/)
 
-![alt text](assets/images/scrnsht.png)
+![alt text](assets/imgs/scrnsht.png)
 
 ## Technologies used:
 * HTML 
